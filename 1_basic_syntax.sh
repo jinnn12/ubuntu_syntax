@@ -47,7 +47,7 @@ mkdir " " -> (make directory, " " 디렉토리를 만든다.)
   touch first_file.txt
 
 # 파일 내용 조회하기, 터미널 창에 출력하기
-  cat first_file.txt (터미널 창에 출력)
+  cat first_file.txt 
 
 # 파일 내용 상위 10줄 출력
   head first_file.txt 
@@ -84,7 +84,8 @@ mkdir " " -> (make directory, " " 디렉토리를 만든다.)
   echo "hello world"
 
 # echo를 통해 파일에 내용 입력
-  > : 덮어쓰기, >> : 추가모드
+  > : 덮어쓰기
+  >> : 추가모드
   ex) echo "hello world" > first_file.txt
       echo "hello world" >> first_file.txt
 
