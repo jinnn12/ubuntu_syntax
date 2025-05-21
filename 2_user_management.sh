@@ -10,9 +10,15 @@
   chmod 644 파일명 (rw - r - r)
   chmod 664 파일명 (rw - rw - r)
 
-  chmod u + x 파일명 (user 한테 x 실행권한 줌)
-  chmod u - x 파일명 (user 한테 x 실행권한 뺏음)
-  chmod u = r 파일명 (user 한테 r 권한 줌)
-  
+  chmod u+x 파일명 (user 한테 x 실행권한 줌)
+  chmod u-x 파일명 (user 한테 x 실행권한 뺏음)
+  chmod u=r 파일명 (user 한테 r 권한 줌)
+
+
+  # 소유자 그룹 변경 (자주 쓰는건 chmod로 권한주기)
+    chown newuser1:newuser1 first_file.txt (소유자 그룹을 변경한다. change owner)
+    
+
+
 
 

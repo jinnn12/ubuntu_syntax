@@ -106,7 +106,7 @@ mkdir " " -> (make directory, " " 디렉토리를 만든다.)
 
 # find와 grep의 혼용 방식 2가지
   find . -name "*.txt" | xargs -rni "hello"
-  find . -name "*.txt" -excec grep -rni "hello" {} |
+  find . -name "*.txt" -excec grep -rni "hello" {} \;
 
 # 타입은 file인 파일 중, 이름은 first로 시작하고, 그 파일들 안에 "hello"라는 키워드가 들어가 있는 문구
 # 문장찾기
